@@ -1,4 +1,4 @@
-package jep356randomgenerator;
+package com.github.xtermi2.java17.jep356randomgenerator;
 
 import java.util.Random;
 import java.util.random.RandomGenerator;

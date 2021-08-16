@@ -1,4 +1,4 @@
-package jep356randomgenerator;
+package com.github.xtermi2.java17.jep356randomgenerator;
 
 import org.junit.jupiter.api.Test;
 

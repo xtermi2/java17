@@ -21,9 +21,10 @@
 - [JEP 403:   Strongly Encapsulate JDK Internals](https://openjdk.java.net/jeps/403)
     - Strongly encapsulate all internal elements of the JDK, except for critical internal APIs such as sun.misc.Unsafe. It will no longer be possible to relax the strong encapsulation of internal elements via a single command-line option, as was possible in JDK 9 through JDK 16.
 - [JEP 406:    Pattern Matching for switch (Preview)](https://openjdk.java.net/jeps/406)
-    - TODO
+    - see example `SwitchPatternMatching.java`
 - [JEP 407:    Remove RMI Activation](https://openjdk.java.net/jeps/407)
-    - TODO
+    - Remove the Remote Method Invocation (RMI) Activation mechanism, while preserving the rest of RMI.
+    - The RMI Activation mechanism is obsolete and disused. It was deprecated for removal by JEP 385 in Java SE 15. No comments were received in response to that deprecation.
 - [JEP 409:    Sealed Classes](https://openjdk.java.net/jeps/409)
     - see example `Option.java` or `Shape.java`
 - [JEP 410:    Remove the Experimental AOT and JIT Compiler](https://openjdk.java.net/jeps/410)
@@ -32,9 +33,14 @@
 - [JEP 411:    Deprecate the Security Manager for Removal](https://openjdk.java.net/jeps/411)
     - Deprecate the Security Manager for removal in a future release. The Security Manager dates from Java 1.0. It has not been the primary means of securing client-side Java code for many years, and it has rarely been used to secure server-side code. To move Java forward, we intend to deprecate the Security Manager for removal in concert with the legacy Applet API (JEP 398).
 - [JEP 412:    Foreign Function & Memory API (Incubator)](https://openjdk.java.net/jeps/412)
-    - TODO
+    - Introduce an API by which Java programs can interoperate with code and data outside of the Java runtime. Combination of 2 APIs introduced in previous JDKs:
+    - Foreign-Memory Access API (incubator in 14, 15 and 16)
+    - Foreign Linker API (incubator in 16)
+    - see exaple `SortExternalOfHeap.java`
+    - **TODO**
 - [JEP 414:    Vector API (Second Incubator)](https://openjdk.java.net/jeps/414)
-    - TODO
+    - see example `Scalar.java`
+    - update to first incubator: enhancements in response to feedback as well as performance improvements and other significant implementation enhancements.
 - [JEP 415:    Context-Specific Deserialization Filters](https://openjdk.java.net/jeps/415)
     - TODO
 
