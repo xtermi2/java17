@@ -42,7 +42,8 @@
     - see example `Scalar.java`
     - update to first incubator: enhancements in response to feedback as well as performance improvements and other significant implementation enhancements.
 - [JEP 415:    Context-Specific Deserialization Filters](https://openjdk.java.net/jeps/415)
-    - TODO
+    - Allow applications to configure context-specific and dynamically-selected deserialization filters via a JVM-wide filter factory that is invoked to select a filter for each individual deserialization operation.
+    - **TODO**
 
 
 ##### Other References
