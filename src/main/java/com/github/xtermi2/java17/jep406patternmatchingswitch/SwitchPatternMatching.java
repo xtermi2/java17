@@ -20,7 +20,7 @@ public class SwitchPatternMatching {
 //        }
 //    }
 //
-//    static void testTriangle(Object s) {
+//    static void testSize(Object s) {
 //        switch (s) {
 //            case String large && (large.length() > 1000) -> System.out.println("Large string");
 //            case String small -> System.out.println("Small string");
