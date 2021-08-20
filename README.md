@@ -37,14 +37,29 @@
     - Foreign-Memory Access API (incubator in 14, 15 and 16)
     - Foreign Linker API (incubator in 16)
     - see exaple `SortExternalOfHeap.java`
-    - **TODO**
+    - **TODO** example from jep does not compile / work
 - [JEP 414:    Vector API (Second Incubator)](https://openjdk.java.net/jeps/414)
     - see example `Scalar.java`
     - update to first incubator: enhancements in response to feedback as well as performance improvements and other significant implementation enhancements.
 - [JEP 415:    Context-Specific Deserialization Filters](https://openjdk.java.net/jeps/415)
     - Allow applications to configure context-specific and dynamically-selected deserialization filters via a JVM-wide filter factory that is invoked to select a filter for each individual deserialization operation.
-    - **TODO**
+    - java 9 introduced Deserialization Filters in general:
+      - A global JVM wide filter is possible
+      - set a filter directly per stream
+    - this jep adds a filter factory, which can decide which filter should be uses. This allows also to influence third-party libraries.
 
+## My favorites since Java 11
+
+- [Java 14]([https://github.com/xtermi2/java14]): 
+  - [JEP 358: Helpful NullPointerExceptions](https://openjdk.java.net/jeps/358)
+  - [JEP 361 – Switch Expressions (Standard)](https://openjdk.java.net/jeps/361)
+- [Java 15](https://github.com/xtermi2/java15) 
+  - [JEP 378:	Text Blocks](https://openjdk.java.net/jeps/378)
+- [Java 16](https://github.com/xtermi2/java16)
+  - [JEP 394:    Pattern Matching for instanceof](https://openjdk.java.net/jeps/394)
+  - [JEP 395:    Records](https://openjdk.java.net/jeps/395)
+- Java 17
+  - [JEP 409:    Sealed Classes](https://openjdk.java.net/jeps/409)
 
 ##### Other References
 
